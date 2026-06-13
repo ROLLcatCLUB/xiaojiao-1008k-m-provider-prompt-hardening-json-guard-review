@@ -1,0 +1,30 @@
+{
+  "candidate_type": "handout",
+  "title": "色彩的感觉——四年级美术学习单",
+  "grade": "四年级",
+  "sections": [
+    {
+      "title": "认识冷暖色",
+      "student_instruction": "观察下列颜色，用○圈出让你感觉温暖的，用△标记让你感觉凉爽的。",
+      "expected_student_action": "正确区分暖色和冷色"
+    },
+    {
+      "title": "冷暖色与情绪连线",
+      "student_instruction": "把左边颜色与右边情绪连起来，看看它们之间的关系。",
+      "expected_student_action": "能说出暖色对应热烈情绪"
+    },
+    {
+      "title": "我用色彩表达情绪",
+      "student_instruction": "选择暖色或冷色，画一幅能表达开心或难过的小画。",
+      "expected_student_action": "能用颜色表达特定情绪"
+    }
+  ],
+  "teacher_note": "准备暖色（红橙黄）和冷色（蓝绿紫）色卡或蜡笔，供学生使用。",
+  "candidate_only": true,
+  "teacher_review_required": true,
+  "formal_apply_performed": false,
+  "schema_valid": true,
+  "source": "hardened live sandbox provider candidate",
+  "provider_response_redacted_ref": "generate_handout_candidate",
+  "normalized_candidate_id": "candidate_handout_L003_hardened_1008M"
+}

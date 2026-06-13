@@ -1,0 +1,48 @@
+{
+  "candidate_request_id": "provider_request_shorten_second_activity_candidate_hardened_live_1008M",
+  "action": "shorten_second_activity_candidate",
+  "context_pack": {
+    "teacher": {
+      "role": "小学美术教师"
+    },
+    "lesson": {
+      "subject": "美术",
+      "grade": "四年级",
+      "class_name": "四年级1班",
+      "lesson_title": "色彩的感觉",
+      "duration_minutes": 40,
+      "learning_goals": [
+        "感受色彩带来的不同情绪",
+        "能说出生活中常见的冷暖色",
+        "尝试用冷暖对比做一次简单表达"
+      ],
+      "lesson_structure": [
+        {
+          "name": "导入",
+          "minutes": 5
+        },
+        {
+          "name": "探究",
+          "minutes": 25
+        },
+        {
+          "name": "展示",
+          "minutes": 15
+        },
+        {
+          "name": "总结",
+          "minutes": 2
+        }
+      ]
+    },
+    "task": {
+      "action": "shorten_second_activity_candidate",
+      "candidate_only": true,
+      "teacher_review_required": true
+    }
+  },
+  "hardened_prompt_ref": "1008K",
+  "provider_called": true,
+  "model_called": true,
+  "api_key_stored": false
+}

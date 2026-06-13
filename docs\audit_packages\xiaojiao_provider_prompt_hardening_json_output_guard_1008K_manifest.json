@@ -1,0 +1,20 @@
+{
+  "package": "xiaojiao_provider_prompt_hardening_json_output_guard_1008K",
+  "zip_entry_count": 10,
+  "zip_sha256": "833EAF01A5967703F72D7286360C2E0DF8727A25BD77FCC42084399A5606C1B0",
+  "entries": [
+    "docs/audit/xiaojiao_provider_prompt_hardening_json_output_guard_1008K_report.md",
+    "docs/audit/xiaojiao_provider_prompt_hardening_json_output_guard_1008K_result.json",
+    "docs/foundation/xiaojiao_provider_prompt_hardening_json_output_guard_1008K.json",
+    "docs/foundation/xiaojiao_provider_prompt_hardening_json_output_guard_1008K.md",
+    "samples/xiaojiao_provider_prompt_hardening_json_output_guard_1008K/hardened_prompt_template_handout_candidate_1008K.md",
+    "samples/xiaojiao_provider_prompt_hardening_json_output_guard_1008K/hardened_prompt_template_second_activity_patch_1008K.md",
+    "samples/xiaojiao_provider_prompt_hardening_json_output_guard_1008K/json_output_schema_handout_candidate_1008K.json",
+    "samples/xiaojiao_provider_prompt_hardening_json_output_guard_1008K/json_output_schema_second_activity_patch_1008K.json",
+    "samples/xiaojiao_provider_prompt_hardening_json_output_guard_1008K/prompt_hardening_diff_1008K.json",
+    "scripts/validate_xiaojiao_provider_prompt_hardening_json_output_guard_1008K.py"
+  ],
+  "manifest_minus_zip": [],
+  "zip_minus_manifest": [],
+  "created_at": "2026-06-13T18:31:41.412431+00:00"
+}

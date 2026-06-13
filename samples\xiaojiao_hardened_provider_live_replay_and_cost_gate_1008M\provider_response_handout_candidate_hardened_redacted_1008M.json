@@ -1,0 +1,19 @@
+{
+  "action": "generate_handout_candidate",
+  "provider_called": true,
+  "model_called": true,
+  "provider_response_redacted": true,
+  "raw_response_stored": false,
+  "raw_response_preview_redacted": "{\"candidate_type\":\"handout\",\"title\":\"色彩的感觉——四年级美术学习单\",\"grade\":\"四年级\",\"sections\":[{\"title\":\"认识冷暖色\",\"student_instruction\":\"观察下列颜色，用○圈出让你感觉温暖的，用△标记让你感觉凉爽的。\",\"expected_student_action\":\"正确区分暖色和冷色\"},{\"title\":\"冷暖色与情绪连线\",\"student",
+  "strict_json_parse_success": true,
+  "extraction_required": false,
+  "provider_meta": {
+    "provider": "openai_compatible",
+    "model": "MiniMax-M2.7",
+    "base_url_host": "api.minimaxi.com",
+    "credential_source": "mapped_from_existing_minimax_env",
+    "latency_ms": 18340
+  },
+  "api_key_included": false,
+  "authorization_header_stored": false
+}

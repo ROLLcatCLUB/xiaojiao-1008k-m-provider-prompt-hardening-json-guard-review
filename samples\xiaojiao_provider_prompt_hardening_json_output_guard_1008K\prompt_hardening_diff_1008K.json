@@ -1,0 +1,10 @@
+{
+  "from": "1008J prompt hardening plan",
+  "changes": [
+    "added JSON-only command",
+    "forbid markdown code fences",
+    "forbid AI self-reference and pre/post text",
+    "added candidate_error fallback",
+    "added candidate_only/review/formal_apply flags"
+  ]
+}

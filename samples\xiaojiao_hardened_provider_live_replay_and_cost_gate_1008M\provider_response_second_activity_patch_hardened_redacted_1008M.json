@@ -1,0 +1,19 @@
+{
+  "action": "shorten_second_activity_candidate",
+  "provider_called": true,
+  "model_called": true,
+  "provider_response_redacted": true,
+  "raw_response_stored": false,
+  "raw_response_preview_redacted": "{\"candidate_type\":\"lesson_section_patch\",\"target_section\":\"探究\",\"before_minutes\":25,\"after_minutes\":18,\"patch_summary\":\"压缩探究环节时间，优化活动流程，保持核心学习目标\",\"revised_section\":{\"name\":\"探究\",\"minutes\":18,\"teacher_actions\":[\"展示冷暖色对比图片，引",
+  "strict_json_parse_success": true,
+  "extraction_required": false,
+  "provider_meta": {
+    "provider": "openai_compatible",
+    "model": "MiniMax-M2.7",
+    "base_url_host": "api.minimaxi.com",
+    "credential_source": "mapped_from_existing_minimax_env",
+    "latency_ms": 17140
+  },
+  "api_key_included": false,
+  "authorization_header_stored": false
+}

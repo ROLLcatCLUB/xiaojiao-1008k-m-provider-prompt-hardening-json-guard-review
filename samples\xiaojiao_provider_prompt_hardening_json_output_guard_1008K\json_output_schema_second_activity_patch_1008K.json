@@ -1,0 +1,109 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_type",
+    "target_section",
+    "before_minutes",
+    "after_minutes",
+    "patch_summary",
+    "revised_section",
+    "impact",
+    "candidate_only",
+    "teacher_review_required",
+    "formal_apply_performed"
+  ],
+  "properties": {
+    "candidate_type": {
+      "const": "lesson_section_patch"
+    },
+    "target_section": {
+      "const": "探究"
+    },
+    "before_minutes": {
+      "const": 25
+    },
+    "after_minutes": {
+      "const": 18
+    },
+    "patch_summary": {
+      "type": "string",
+      "maxLength": 90
+    },
+    "revised_section": {
+      "type": "object",
+      "required": [
+        "name",
+        "minutes",
+        "teacher_actions",
+        "student_actions",
+        "key_questions"
+      ],
+      "properties": {
+        "name": {
+          "const": "探究"
+        },
+        "minutes": {
+          "const": 18
+        },
+        "teacher_actions": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {
+            "type": "string",
+            "maxLength": 50
+          }
+        },
+        "student_actions": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "maxLength": 50
+          }
+        },
+        "key_questions": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "maxLength": 50
+          }
+        }
+      }
+    },
+    "impact": {
+      "type": "object",
+      "required": [
+        "reserved_display_minutes",
+        "risk",
+        "teacher_note"
+      ],
+      "properties": {
+        "reserved_display_minutes": {
+          "const": 15
+        },
+        "risk": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "teacher_note": {
+          "type": "string",
+          "maxLength": 80
+        }
+      }
+    },
+    "candidate_only": {
+      "const": true
+    },
+    "teacher_review_required": {
+      "const": true
+    },
+    "formal_apply_performed": {
+      "const": false
+    }
+  }
+}

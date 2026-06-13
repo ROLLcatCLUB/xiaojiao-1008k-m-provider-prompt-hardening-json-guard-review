@@ -1,0 +1,15 @@
+{
+  "stage": "1008K_PROVIDER_PROMPT_HARDENING_AND_JSON_OUTPUT_GUARD",
+  "final_status": "XIAOJIAO_PROVIDER_PROMPT_HARDENING_AND_JSON_OUTPUT_GUARD_PASS",
+  "provider_called": false,
+  "model_called": false,
+  "json_only_protocol": true,
+  "candidate_error_protocol": true,
+  "teacher_review_required": true,
+  "formal_apply_performed": false,
+  "actions": [
+    "generate_handout_candidate",
+    "shorten_second_activity_candidate"
+  ],
+  "next_stage": "1008L_PROVIDER_OUTPUT_REPAIR_AND_CANDIDATE_ERROR_GUARD"
+}

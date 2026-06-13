@@ -1,0 +1,62 @@
+[
+  {
+    "candidate_error": true,
+    "error_code": "PROVIDER_OUTPUT_NON_JSON",
+    "message": "候选生成未通过安全守卫。",
+    "action": "generate_handout_candidate",
+    "teacher_visible": true,
+    "teacher_review_required": true,
+    "formal_apply_performed": false,
+    "work_object_patch_created": false
+  },
+  {
+    "candidate_error": true,
+    "error_code": "PROVIDER_OUTPUT_EXTRA_TEXT",
+    "message": "候选生成未通过安全守卫。",
+    "action": "generate_handout_candidate",
+    "teacher_visible": true,
+    "teacher_review_required": true,
+    "formal_apply_performed": false,
+    "work_object_patch_created": false
+  },
+  {
+    "candidate_error": true,
+    "error_code": "PROVIDER_JSON_PARSE_FAILED",
+    "message": "候选生成未通过安全守卫。",
+    "action": "generate_handout_candidate",
+    "teacher_visible": true,
+    "teacher_review_required": true,
+    "formal_apply_performed": false,
+    "work_object_patch_created": false
+  },
+  {
+    "candidate_error": true,
+    "error_code": "PROVIDER_SCHEMA_VALIDATION_FAILED",
+    "message": "候选生成未通过安全守卫。",
+    "action": "generate_handout_candidate",
+    "teacher_visible": true,
+    "teacher_review_required": true,
+    "formal_apply_performed": false,
+    "work_object_patch_created": false
+  },
+  {
+    "candidate_error": true,
+    "error_code": "PROVIDER_CANDIDATE_NORMALIZATION_FAILED",
+    "message": "候选生成未通过安全守卫。",
+    "action": "generate_handout_candidate",
+    "teacher_visible": true,
+    "teacher_review_required": true,
+    "formal_apply_performed": false,
+    "work_object_patch_created": false
+  },
+  {
+    "candidate_error": true,
+    "error_code": "PROVIDER_CANDIDATE_BLOCKED_BY_SAFETY_GUARD",
+    "message": "候选生成未通过安全守卫。",
+    "action": "generate_handout_candidate",
+    "teacher_visible": true,
+    "teacher_review_required": true,
+    "formal_apply_performed": false,
+    "work_object_patch_created": false
+  }
+]

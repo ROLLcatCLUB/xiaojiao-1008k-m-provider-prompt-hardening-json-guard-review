@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_type",
+    "title",
+    "grade",
+    "sections",
+    "teacher_note",
+    "candidate_only",
+    "teacher_review_required",
+    "formal_apply_performed"
+  ],
+  "properties": {
+    "candidate_type": {
+      "const": "handout"
+    },
+    "title": {
+      "type": "string"
+    },
+    "grade": {
+      "const": "四年级"
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "student_instruction",
+          "expected_student_action"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "student_instruction": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "expected_student_action": {
+            "type": "string",
+            "maxLength": 40
+          }
+        }
+      }
+    },
+    "teacher_note": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "candidate_only": {
+      "const": true
+    },
+    "teacher_review_required": {
+      "const": true
+    },
+    "formal_apply_performed": {
+      "const": false
+    }
+  }
+}

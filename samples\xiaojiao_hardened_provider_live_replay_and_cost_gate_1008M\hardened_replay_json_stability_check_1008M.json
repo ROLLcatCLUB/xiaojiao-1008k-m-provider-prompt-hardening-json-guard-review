@@ -1,0 +1,9 @@
+{
+  "handout_strict_json_parse_success": true,
+  "handout_extraction_required": false,
+  "section_strict_json_parse_success": true,
+  "section_extraction_required": false,
+  "schema_validation_success": true,
+  "provider_response_redacted": true,
+  "raw_response_direct_to_page": false
+}

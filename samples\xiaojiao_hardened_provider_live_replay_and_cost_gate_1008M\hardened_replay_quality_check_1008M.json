@@ -1,0 +1,21 @@
+{
+  "handout": {
+    "pass": true,
+    "score_0_to_5": 4.6,
+    "suitable_for_grade_4": true,
+    "looks_like_handout_not_lesson_plan": true,
+    "student_executable_tasks": true,
+    "no_ai_self_reference": true,
+    "teacher_review_gate_ready": true,
+    "formal_apply_performed": false
+  },
+  "second_activity": {
+    "pass": true,
+    "score_0_to_5": 4.7,
+    "only_modifies_inquiry_section": true,
+    "keeps_display_minutes": true,
+    "does_not_rewrite_whole_lesson": true,
+    "teacher_review_gate_ready": true,
+    "formal_apply_performed": false
+  }
+}

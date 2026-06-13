@@ -1,0 +1,27 @@
+{
+  "package": "xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M",
+  "zip_entry_count": 17,
+  "zip_sha256": "5012868246C9959990137BDEE1F4FB1A58D6EEE2E638E0C6AAFD7E96ABFE1F53",
+  "entries": [
+    "docs/audit/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M_report.md",
+    "docs/audit/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M_result.json",
+    "docs/foundation/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M.json",
+    "docs/foundation/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M.md",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/handout_candidate_work_object_patch_hardened_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/hardened_replay_json_stability_check_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/hardened_replay_quality_check_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/normalized_handout_candidate_hardened_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/normalized_second_activity_patch_hardened_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/provider_cost_estimator_config_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/provider_latency_cost_gate_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/provider_request_handout_candidate_hardened_live_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/provider_request_second_activity_patch_hardened_live_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/provider_response_handout_candidate_hardened_redacted_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/provider_response_second_activity_patch_hardened_redacted_1008M.json",
+    "samples/xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M/second_activity_patch_work_object_patch_hardened_1008M.json",
+    "scripts/validate_xiaojiao_hardened_provider_live_replay_and_cost_gate_1008M.py"
+  ],
+  "manifest_minus_zip": [],
+  "zip_minus_manifest": [],
+  "created_at": "2026-06-13T18:32:17.089469+00:00"
+}

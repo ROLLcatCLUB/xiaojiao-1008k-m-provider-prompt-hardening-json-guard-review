@@ -1,0 +1,11 @@
+{
+  "steps": [
+    "strict_json_parse",
+    "json_extraction",
+    "schema_validation",
+    "normalization",
+    "candidate_error_fallback"
+  ],
+  "failure_policy": "no_patch_before_schema_success",
+  "formal_apply_performed": false
+}

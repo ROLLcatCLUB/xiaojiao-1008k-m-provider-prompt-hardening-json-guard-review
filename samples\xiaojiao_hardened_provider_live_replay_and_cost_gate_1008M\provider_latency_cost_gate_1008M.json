@@ -1,0 +1,8 @@
+{
+  "handout_latency_ms": 18340,
+  "second_activity_patch_latency_ms": 17140,
+  "estimated_cost_cny": null,
+  "cost_gate_incomplete": true,
+  "reason": "provider pricing table not configured in repo",
+  "next_cost_action": "add provider pricing config before real Work State Store"
+}

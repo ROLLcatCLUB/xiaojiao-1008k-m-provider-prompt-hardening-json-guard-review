@@ -1,0 +1,7 @@
+{
+  "provider": "minimax",
+  "model": "MiniMax-M2.7",
+  "pricing_configured": false,
+  "estimated_cost_cny": null,
+  "reason": "provider pricing table not configured in repo"
+}

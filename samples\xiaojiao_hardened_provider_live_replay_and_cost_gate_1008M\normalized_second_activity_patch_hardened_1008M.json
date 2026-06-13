@@ -1,0 +1,40 @@
+{
+  "candidate_type": "lesson_section_patch",
+  "target_section": "探究",
+  "before_minutes": 25,
+  "after_minutes": 18,
+  "patch_summary": "压缩探究环节时间，优化活动流程，保持核心学习目标",
+  "revised_section": {
+    "name": "探究",
+    "minutes": 18,
+    "teacher_actions": [
+      "展示冷暖色对比图片，引导观察色彩特征（3分钟）",
+      "提问启发思考：哪些颜色让你感到温暖？冷色传达什么情绪？（6分钟）",
+      "布置小组探究任务：用冷暖色表达高兴或悲伤的情绪（2分钟）",
+      "巡视指导各组，及时反馈与点评（5分钟）",
+      "过渡语衔接下一环节展示（2分钟）"
+    ],
+    "student_actions": [
+      "观察图片并记录冷暖色代表",
+      "小组讨论冷暖色与情绪的关联",
+      "完成冷暖对比表达练习"
+    ],
+    "key_questions": [
+      "红色、橙色、黄色等暖色给你什么感觉？",
+      "蓝色、绿色等冷色让你联想到什么场景？",
+      "生活中哪里能观察到冷暖色对比？"
+    ]
+  },
+  "impact": {
+    "reserved_display_minutes": 15,
+    "risk": "探究时间压缩可能影响学生深度思考和讨论充分性",
+    "teacher_note": "建议教师提前准备演示素材，在提问环节控制时间，确保学生有足够时间完成表达练习"
+  },
+  "candidate_only": true,
+  "teacher_review_required": true,
+  "formal_apply_performed": false,
+  "schema_valid": true,
+  "source": "hardened live sandbox provider candidate",
+  "provider_response_redacted_ref": "shorten_second_activity_candidate",
+  "normalized_candidate_id": "candidate_second_activity_patch_L003_hardened_1008M"
+}
